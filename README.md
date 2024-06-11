@@ -1,29 +1,20 @@
-# vue
+# 城市搜尋應用程式
 
-This template should help get you started developing with Vue 3 in Vite.
+## 項目描述
 
-## Recommended IDE Setup
+這是一個城市搜尋應用程式，使用 Vue 3 開發，最初的 API 資料來源是存放在 GitHub 的 JSON 文件，後來遷移到 Firebase，並進行了 API 串接。該應用程式允許用戶輸入城市名稱或州名進行搜尋，並顯示相關的城市資訊。為了保證樣式的一致性，使用了 CSS Reset，並使用 Pinia 進行狀態管理。
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+## 功能
 
-## Customize configuration
+- **城市搜尋**
+- **資料顯示**
+- **Firebase 整合**
+- **處理輸入空白錯誤**
 
-See [Vite Configuration Reference](https://vitejs.dev/config/).
+## 技術
 
-## Project Setup
-
-```sh
-npm install
-```
-
-### Compile and Hot-Reload for Development
-
-```sh
-npm run dev
-```
-
-### Compile and Minify for Production
-
-```sh
-npm run build
-```
+- **前端框架**：Vue 3
+- **狀態管理**：Pinia
+- **資料庫**：Firebase Firestore
+- **樣式重置**：CSS Reset
+- **工具**：Vite
