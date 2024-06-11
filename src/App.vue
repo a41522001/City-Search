@@ -5,7 +5,7 @@
   const search = ref(null);
   const cities = computed(() => {
     return fetchStore.cities.filter(city => {
-      return city.city.toLowerCase().includes(search.value.toLowerCase()) || city.state.includes(search.value);
+      return city.city.toLowerCase().includes(search.value.toLowerCase()) || city.state.toLowerCase().includes(search.value.toLowerCase());
     })
   })
   const showList = ref(false);
